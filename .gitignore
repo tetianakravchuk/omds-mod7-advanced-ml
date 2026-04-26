@@ -2,3 +2,21 @@
 __pycache__/
 .env
 .DS_Store
+
+# Virtual environments
+.venv*/
+venv/
+env/
+
+# Large data and model files
+data/
+*.pt
+*.bin
+*.h5
+
+# Temporary Word lock files
+~$*.docx
+~$*.xlsx
+
+# Claude Code config
+.claude/
